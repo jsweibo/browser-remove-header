@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#179b16" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script defer src="js/rem.js"></script>
+    <script defer src="js/index.js"></script>
+    <title>Remove Header Options</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="hint-field">
+        <div class="mask"></div>
+        <div class="hint"></div>
+      </div>
+      <form id="config">
+        <div class="form-field">
+          <div class="header-field">
+            <div class="title">Status</div>
+            <input type="checkbox" name="status" id="status" />
+          </div>
+        </div>
+        <div class="form-field">
+          <div class="title">Rules</div>
+          <div class="value-field">
+            <textarea
+              name="rules"
+              id="rules"
+              rows="18"
+              placeholder="Remove Rules"
+            ></textarea>
+          </div>
+        </div>
+        <div class="btns-field">
+          <button type="submit" id="submit">Save</button>
+          <button type="button" id="get-advice">Get Advice</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

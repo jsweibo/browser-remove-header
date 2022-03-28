@@ -1,0 +1,33 @@
+{
+  "name": "browser-remove-event",
+  "version": "1.0.0",
+  "description": "It can remove HTTP headers",
+  "private": true,
+  "scripts": {
+    "build": "gulp",
+    "lint": "eslint src",
+    "prettier": "prettier --write src",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsweibo/browser-remove-event.git"
+  },
+  "keywords": [
+    "browser-remove-event"
+  ],
+  "author": "jsweibo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsweibo/browser-remove-event/issues"
+  },
+  "homepage": "https://github.com/jsweibo/browser-remove-event#readme",
+  "devDependencies": {
+    "delete": "^1.1.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "gulp": "^4.0.2",
+    "prettier": "^2.5.1"
+  }
+}
